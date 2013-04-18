@@ -8,3 +8,6 @@ GoogleWallet.py
 
 pos.py
  - Added DCSC detection to Corey's script. Connects via serial. Took out CC #s ;)
+
+Sobell - NFC Mobile Wallets - SOURCE.pdf
+ - Slides for SOURCE presentation.
