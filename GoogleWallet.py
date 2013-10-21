@@ -37,7 +37,10 @@ from operator import *
 from binascii import unhexlify
 
 # local imports
-from iso3166 import ISO3166CountryCodes
+try:
+	from iso3166 import ISO3166CountryCodes
+except:
+	from rfidiot.iso3166 import ISO3166CountryCodes
 
 # default global options
 BruteforcePrimitives= False
